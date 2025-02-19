@@ -1,0 +1,8 @@
+#myCanvas{
+    border: 1px solid;
+    background-image: url('assets/flappybg.png');
+}
+body{
+    display: flex;
+    justify-content: center;
+}
