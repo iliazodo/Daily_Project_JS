@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color:hsl(0, 0%, 90%);
+}
+.container{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 150px auto 0;
+    padding: 10px;
+    background-color: #9000ffb4;
+    border: none;
+    border-radius: 10px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0 0 20px;
+}
+.answer-btn{
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 5px;
+    background-color: #9000ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: .3s ease;
+    word-break: normal;
+}
+.answer-btn:hover:not([disabled]) {
+    background-color: #7000c5;
+}
+#next{
+    width: fit-content;
+    font-size: 30px;
+    padding:5px 20px;
+    margin: 20px auto;
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+    transition: .3s ease;
+    border: 2px solid black;
+    display: none;
+}
+#finish{
+    width: fit-content;
+    font-size: 30px;
+    padding:5px 20px;
+    margin: 20px auto;
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+    transition: .3s ease;
+    border: 2px solid black;
+    display: none;
+}
+#next:hover{
+    background-color: #9000ff;
+}
+#finish:hover{
+    background-color: #9000ff;
+}
+#question{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0 0 40px;
+}
+.app-title{
+    font-size: 50px;
+    margin: 0 0 40px;
+}
+.container .green{
+    background-color: rgb(0, 225, 109);
+}
+.container .red{
+    background-color: rgb(255, 64, 0);
+}
+#score-correct{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: -30px;
+    color: rgb(4, 255, 0);
+}
+#score-wrong{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(199, 10, 0);
+}
+#score-all{
+    font-weight: bold;
+    font-size: 2rem;
+}
