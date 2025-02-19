@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url('bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.title{
+    color: white;
+    font-size: 3rem;
+}
+.card-container{
+    width: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 10px solid #34662e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    display: none;
+    padding: 20px;
+    overflow: none;
+    background: repeating-radial-gradient(circle,#9DC56E,#50854A 10%);
+}
+#generate{
+    width: 100%;
+    margin: 30px auto 0;
+    background-color: #9DC56E;
+    font-size: 1.4rem;
+    width: 200px;
+    border-radius: 10px;
+}
+.card-image{
+    width: 300px;
+    margin: 20px auto;
+    border: 3px solid;
+    border-radius: 10px;
+}
+.card-name{
+    font-size: 2rem;
+    background-color: #9DC56E;
+}
+.card-gender{
+    background-color: #9DC56E;
+}
+.card-status{
+    background-color: #9DC56E;
+}
+.card-species{
+    background-color: #9DC56E;
+}
+.card-location{
+    background-color: #9DC56E;
+}
