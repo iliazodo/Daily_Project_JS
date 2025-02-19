@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace ,Arial, Helvetica, sans-serif;
+}
+body{
+    background:black;
+}
+.app-container{
+    width:fit-content;
+    padding: 10px;
+    margin: 50px auto 0;
+    border: 1px solid;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: hsl(0, 0%, 30%);
+}
+.button-container{
+    border: 1px solid;
+    padding: 5px;
+    background-color: black;
+}
+#decimal-number{
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    min-width:100px;
+    border: 1px solid;
+    padding: 5px;
+    background-color: black;
+    color: rgb(255, 247, 0);
+}
+.app-bit{
+    font-size: 3rem;
+    color: rgb(0, 255, 34);
+    background-color: black;
+}
+h2{
+    font-size: 2rem;
+    color: rgb(0, 255, 34);
+    margin: 200px 0px 0 0;
+    text-align: center;
+}
+h2 span{
+    color: rgb(255, 247, 0);
+}
