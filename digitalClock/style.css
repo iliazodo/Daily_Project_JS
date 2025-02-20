@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+body{
+    background-color: black;
+}
+#clock{
+    color: rgb(0, 255, 0);
+    font-size: 4rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 300px;
+}
