@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("bg.png");
+}
+#colorPicker{
+    width: 200px;
+    height: 200px;
+}
+#hex{
+    background-color: gray;
+    font-size: 2rem;
+}
+.container{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+}
