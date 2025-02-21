@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: gray;
+}
+.app-container{
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid;
+    width: 450px;
+    height: 100%;
+}
+.amount-container{
+    border: 1px solid;
+    padding: 10px;
+    font-size: 1.4rem;
+}
+.output-container{
+    padding: 10px;
+    border: 1px solid;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 450px;
+    height: 800px;
+    overflow: auto;
+}
+.input-container{
+    border: 1px solid;
+    padding: 10px;
+}
+.input-container input{
+    padding:5px;
+}
+#submit{
+    background-color: green;
+    color: white;
+}
