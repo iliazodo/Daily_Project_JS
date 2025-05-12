@@ -1,0 +1,18 @@
+.container{
+    position:absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50% , -50%);
+}
+
+#myButton{
+    font-size: 2rem;
+    background-color: rgb(157, 0, 255);
+    border-radius: 30px;
+    padding: 15px;
+    border: 3px solid;
+}
+
+#myButton:active{
+    transform: scale(0.9);
+}
